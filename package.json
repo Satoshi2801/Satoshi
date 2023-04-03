@@ -1,0 +1,31 @@
+{
+  "name": "satoshi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "watch": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satoshi2801/Satoshi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Satoshi2801/Satoshi/issues"
+  },
+  "homepage": "https://github.com/Satoshi2801/Satoshi#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
